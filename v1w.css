@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+html {
+  overflow-y: scroll;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  min-width: 640px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #474747;
+  text-align: center;
+}
+
+#container {
+  margin: 0 auto -80px;
+}
+
+#top {
+  margin: 80px auto 0;
+  width: 640px;
+}
+
+#gopurpose {
+  cursor: pointer;
+}
+
+#logotxt {
+  font-family: Ubuntu, sans-serif;
+  font-size: 70px;
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+#logotxt_main {
+  float: left;
+}
+
+#logotxt_sub1,
+#logotxt_sub2 {
+  color: #ccc;
+  float: left;
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+#logotxt:hover #logotxt_sub1,
+#logotxt:hover #logotxt_sub2 {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+#pages {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  margin: 20px 0 0;
+  padding: 40px 0;
+  line-height: 150%;
+}
+
+#push {
+  height: 80px;
+}
+
+/*
+#navbar {
+  background-color: #fff;
+  position: relative;
+  clear: both;
+  z-index: 10;
+  height: 80px;
+  margin: 0;
+  overflow: hidden;
+}
+
+#navlist {
+  padding: 0;
+}
+
+#navlist li {
+  display: inline;
+  list-style-type: none;
+}
+
+#navlist a,
+#navlist a:visited,
+#navlist a:hover {
+  font-size: 14px;
+  color: #474747;
+  text-decoration: none;
+  cursor:pointer;
+}
+*/
